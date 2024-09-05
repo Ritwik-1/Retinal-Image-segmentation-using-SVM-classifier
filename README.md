@@ -39,19 +39,19 @@ The table below summarizes the performance of the SVM classifier on the test dat
 | **Dice Coefficient**|        |
 | **Jaccard Index**   |        |
 
-
+![Segmentation Example](RESULTS/First_segmentation_02L.png)
 
 ## Model Checkpoint
 
 You can download the trained SVM model checkpoint using the link below:
 
-- [Download Model Checkpoint](https://link-to-model-checkpoint)
+- [Download Model Checkpoint](Trained_model_checkpoints)
 
 ## Demo Notebook
 
 A Jupyter notebook demonstrating the model's usage, including loading the checkpoint, running predictions on sample images, and visualizing the results, is available:
 
-- [Demo Notebook](https://link-to-demo-notebook)
+- [Demo Notebook](TEST_SCRIPT.ipynb)
 
 ## Getting Started
 
