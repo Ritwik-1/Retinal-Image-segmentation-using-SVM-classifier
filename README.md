@@ -69,7 +69,7 @@ Ensure you have the following dependencies installed:
 
 ### Running the demo
 ``` bash 
-jupyter notebook demo_notebook.ipynb
+jupyter notebook TEST_SCRIPT.ipynb
 ```
 
 ### Contact Me 
