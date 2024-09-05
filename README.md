@@ -67,16 +67,6 @@ Ensure you have the following dependencies installed:
 - OpenCV
 - Jupyter Notebook
 
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/username/retinal-image-segmentation
-cd retinal-image-segmentation
-pip install -r requirements.txt
-```
-
 ### Running the demo
 ``` bash 
 jupyter notebook demo_notebook.ipynb
