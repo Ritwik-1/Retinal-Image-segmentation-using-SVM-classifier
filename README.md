@@ -22,7 +22,7 @@ The project employs a Support Vector Machine (SVM) classifier to achieve pixel-w
 
 - **Support Vector Machine (SVM) Classifier:** [Learn more about SVM](https://scikit-learn.org/stable/modules/svm.html)
   - **Kernel:** Radial Basis Function (RBF)
-  - **Feature Extraction:** Histogram of Oriented Gradients (HOG)
+  - **Feature Extraction:** Filters from sklearn 
   - **Dimensionality Reduction:** Principal Component Analysis (PCA)
   - The SVM classifier has been trained to classify each pixel into one of the predefined classes based on the extracted features.
 
@@ -32,12 +32,14 @@ The table below summarizes the performance of the SVM classifier on the test dat
 
 | Metric              | Value  |
 |---------------------|--------|
-| **Accuracy**        | 92.5%  |
-| **Precision**       | 90.1%  |
-| **Recall**          | 91.8%  |
-| **F1-Score**        | 90.9%  |
-| **Dice Coefficient**| 88.7%  |
-| **Jaccard Index**   | 85.3%  |
+| **Accuracy**        | 83.2%  |
+| **Precision**       |        |
+| **Recall**          |        |
+| **F1-Score**        |        |
+| **Dice Coefficient**|        |
+| **Jaccard Index**   |        |
+
+
 
 ## Model Checkpoint
 
@@ -84,7 +86,4 @@ jupyter notebook demo_notebook.ipynb
 
 For any questions, feedback, or collaboration requests, feel free to reach out:
 
--Email: your.email@example.com
--LinkedIn: Your LinkedIn Profile
--GitHub: Your GitHub Profile
-
+-Email: ritwik21485@iiitd.ac.in
