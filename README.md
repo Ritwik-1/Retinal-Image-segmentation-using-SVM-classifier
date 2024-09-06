@@ -30,14 +30,28 @@ The project employs a Support Vector Machine (SVM) classifier to achieve pixel-w
 
 The table below summarizes the performance of the SVM classifier on the test dataset:
 
-| Metric              | Value  |
-|---------------------|--------|
-| **Accuracy**        | 83.2%  |
-| **Precision**       |        |
-| **Recall**          |        |
-| **F1-Score**        |        |
-| **Dice Coefficient**|        |
-| **Jaccard Index**   |        |
+## Classification Report
+
+### Accuracy
+The overall accuracy of the model is **0.8355**.
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0.0   | 0.99      | 0.83   | 0.90     | 5348    |
+| 1.0   | 0.27      | 0.85   | 0.41     | 384     |
+
+### Overall Metrics
+
+- **Accuracy:** 0.84
+- **Macro Average Precision:** 0.63
+- **Macro Average Recall:** 0.84
+- **Macro Average F1-Score:** 0.66
+- **Weighted Average Precision:** 0.94
+- **Weighted Average Recall:** 0.84
+- **Weighted Average F1-Score:** 0.87
+
 
 ![Segmentation Example](RESULTS/First_segmentation_02L.png)
 
